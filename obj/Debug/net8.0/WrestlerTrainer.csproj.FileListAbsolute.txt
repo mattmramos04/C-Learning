@@ -1,0 +1,15 @@
+/workspaces/C-Learning/WrestlerTrainer/bin/Debug/net8.0/WrestlerTrainer
+/workspaces/C-Learning/WrestlerTrainer/bin/Debug/net8.0/WrestlerTrainer.deps.json
+/workspaces/C-Learning/WrestlerTrainer/bin/Debug/net8.0/WrestlerTrainer.runtimeconfig.json
+/workspaces/C-Learning/WrestlerTrainer/bin/Debug/net8.0/WrestlerTrainer.dll
+/workspaces/C-Learning/WrestlerTrainer/bin/Debug/net8.0/WrestlerTrainer.pdb
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.AssemblyInfoInputs.cache
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.AssemblyInfo.cs
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.csproj.CoreCompileInputs.cache
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.sourcelink.json
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.dll
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/refint/WrestlerTrainer.dll
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.pdb
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/WrestlerTrainer.genruntimeconfig.cache
+/workspaces/C-Learning/WrestlerTrainer/obj/Debug/net8.0/ref/WrestlerTrainer.dll
