@@ -7,6 +7,11 @@ public class Wrestler
     public int Age;
     public List<string> moves = new List<string>();
 
+    public virtual void CutPromo()
+    {
+        Console.WriteLine("I'm calling you out buster!");
+    }
+
     //Constructor
     public Wrestler(string name, int age)
     {
@@ -50,10 +55,21 @@ public class Wrestler
         roster.Add(Invincible);
         roster.Add(Cael);
 
+        //LegendWrestler Draven = new LegendWrestler("Draven", 64, "2008");
+        //Draven.CutPromo();
+        //Draven.PrintMoveList();
+
+        /*Commenting this out incase you don't like that, bubba
+        roster.Add(Draven);
+        */
+
+        roster.Add(new LegendWrestler("Draven", 64, "2008" ));
+        roster.Add(new Manager("Paul", 55, Matt.Name));
+        
         foreach (Wrestler w in roster)
         {
             Console.WriteLine(w.Name);
-            w.PrintMoveList();
+            w.CutPromo();
         }
     }
 }
