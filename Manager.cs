@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-
+/*
 public class Manager : Wrestler
 {
     public string ClientName;
@@ -15,3 +15,4 @@ public class Manager : Wrestler
         ClientName = clientName;
     }
 }
+*/

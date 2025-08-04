@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public class LegendWrestler : Wrestler
+/*public class LegendWrestler : Wrestler
 {
     public string HallOfFameYear;
 
@@ -17,3 +17,4 @@ public class LegendWrestler : Wrestler
     }
 
 }
+*/

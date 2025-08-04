@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WrestlerTrainer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47eddfacf1fdee327f29f15ef4f05aefdeda2a30")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fa7d3ded07fff5c704748efb8f407bc82f4b5cd")]
 [assembly: System.Reflection.AssemblyProductAttribute("WrestlerTrainer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WrestlerTrainer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

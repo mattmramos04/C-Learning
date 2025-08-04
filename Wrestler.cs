@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
+/* 
 public class Wrestler
 {
     public string Name;
@@ -60,14 +61,14 @@ public class Wrestler
         //Draven.CutPromo();
         //Draven.PrintMoveList();
 
-        /*Commenting this out incase you don't like that, bubba
+        Commenting this out incase you don't like that, bubba
         roster.Add(Draven);
-        */
+        
 
         roster.Add(new LegendWrestler("Draven", 64, "2008"));
         roster.Add(new Manager("Paul", 55, Matt.Name));
 
-        /*
+        
         foreach (Wrestler w in roster)
         {
             Console.WriteLine(w.Name);
@@ -78,7 +79,7 @@ public class Wrestler
         Draven.SaveToFile();
         Matt.ReadAllFile();
         Draven.ReadAllFile();
-        */
+        
         Wrestler fromFile = Wrestler.LoadFromFile("matthew_data.txt");
         fromFile.PrintMoveList();
     }
@@ -127,3 +128,4 @@ public class Wrestler
         return loaded;
     }
 }
+*/
