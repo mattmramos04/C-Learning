@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 
 public class Wrestler
 {
@@ -54,8 +55,8 @@ public class Wrestler
         roster.Add(Matt);
         roster.Add(Invincible);
         roster.Add(Cael);
+        LegendWrestler Draven = new LegendWrestler("Draven", 64, "2008");
 
-        //LegendWrestler Draven = new LegendWrestler("Draven", 64, "2008");
         //Draven.CutPromo();
         //Draven.PrintMoveList();
 
@@ -63,13 +64,66 @@ public class Wrestler
         roster.Add(Draven);
         */
 
-        roster.Add(new LegendWrestler("Draven", 64, "2008" ));
+        roster.Add(new LegendWrestler("Draven", 64, "2008"));
         roster.Add(new Manager("Paul", 55, Matt.Name));
-        
+
+        /*
         foreach (Wrestler w in roster)
         {
             Console.WriteLine(w.Name);
             w.CutPromo();
         }
+
+        Matt.SaveToFile();
+        Draven.SaveToFile();
+        Matt.ReadAllFile();
+        Draven.ReadAllFile();
+        */
+        Wrestler fromFile = Wrestler.LoadFromFile("matthew_data.txt");
+        fromFile.PrintMoveList();
+    }
+
+    public void SaveToFile()
+    {
+        string content = $"Name: {Name}\nAge: {Age}\nMoves:\n";
+        foreach(string move in moves)
+        {
+            content += $"- {move}\n";
+        }
+        File.WriteAllText($"{Name.ToLower()}_data.txt", content);
+    }
+
+    public void ReadAllFile()
+    {
+        string fileName = $"{Name.ToLower()}_data.txt";
+
+        if (File.Exists(fileName))
+        {
+            string data = File.ReadAllText(fileName);
+            Console.WriteLine(data);
+        }
+        else
+        {
+            Console.WriteLine($"No save file found for {Name}");
+        }
+    }
+
+    public static Wrestler LoadFromFile(string fileName)
+    {
+        string[] lines = File.ReadAllLines(fileName);
+
+        string name = lines[0].Split(": ")[1];
+
+        int age = int.Parse(lines[1].Split(": ")[1]);
+
+        Wrestler loaded = new Wrestler(name, age);
+
+        for (int i = 3; i < lines.Length; i++)
+        {
+            string move = lines[i].Substring(2);
+            loaded.AddMove(move);
+        }
+
+        return loaded;
     }
 }
