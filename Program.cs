@@ -2,11 +2,11 @@
 
 public class Program
 {
-    public static void Main()
+    /*public static void Main()
     {
         RunWrestlerTrainer(); 
     }
-
+    
     public static void RunWrestlerTrainer()
     {
         bool playAgain = true;
@@ -104,4 +104,5 @@ public class Program
             return true;
         }
     }
+    */
 }
