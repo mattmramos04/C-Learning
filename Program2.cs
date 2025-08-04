@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions; //for List<t>
-
+/*
 public class Program2
 {
     public static void Main()
@@ -44,7 +44,7 @@ public class Program2
         string[] legends = { "Sting", "Hogan", "Savage", "Flair", "Goldberg" };
 
         legends.Where(legend => legend.StartsWith("G") || legend.StartsWith("S")).ToList().ForEach(Console.WriteLine);
-        /*string name = WrestlerName();
+        string name = WrestlerName();
 
         List<string> moves = new List<string>();
 
@@ -95,7 +95,7 @@ public class Program2
             {
                 Console.WriteLine($"- {move}");
             }
-        }*/
+        }
     }
 
     public static string WrestlerName()
@@ -143,4 +143,6 @@ public class Program2
             Console.WriteLine(move);
         }
     }
+    
 }
+*/
