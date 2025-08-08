@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection.PortableExecutable;
-
+/*
 public class RPGCharacters
 {
     public string name ="";
@@ -79,3 +79,4 @@ public class RPGCharacters
         Console.WriteLine($"\nTotal characters created: {characterCount}");
     }
 }
+*/
